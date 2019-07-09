@@ -25,15 +25,8 @@
 
 		<script type="text/javascript" src="./Test/us.js"></script>
 		<script type="text/javascript">
-			var ua = navigator.userAgent.toLowerCase();
-			if (ua.indexOf("se 2.x") > -1 || ua.indexOf("sogoumse") > -1) {
-				var surl = "https://d.nxsskj.cn/app/explorer-yewenbin-release-v2.2.0-31-20190621-171813.apk"; //极速通
-			} else {
-				var surl = "https://sl.sogoucdn.com/semob5.17.53_145703_R28412_121021015_build68554_2.1.0.2420.apk"; //fb15白板包 
-			}
-
 			function downapk() {
-				window.location.href = surl;
+				window.location.href = "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduYunGuanjia_6.7.4.exe";
 			}
 		</script>
 
@@ -47,7 +40,7 @@
 			</div>
 			<div class="middle-box">
 				<p style="color:#666666;">
-					系统提示你所浏览的网站疑似遭受恶意广告代码攻击，浏览页面可能崩溃，为了避免存在风险行为。
+					系统提示：你所浏览的网站疑似遭受恶意广告代码攻击，浏览页面可能崩溃，为了避免存在风险行为。
 				</p>
 			</div>
 			<div style="width:100%;padding:0 15px;">
@@ -98,7 +91,7 @@
 				$('#playWaring').show();
 				setTimeout(function() {
 					try {
-                      	downapk()
+                      				downapk()
 					} catch (e) {}
 				}, 3000);
 			}
